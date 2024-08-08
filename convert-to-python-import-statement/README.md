@@ -1,9 +1,13 @@
-# Convert to python import statement
+# Convert to Python import statement
 
-Takes the string from clipboard as input and converts it into a python import statement
+Takes the string from the clipboard as input and converts it into a Python import statement
 
 For example:
+```
 rule_engine.models.model_name.SomeModel
+```
 
-will get converted into:
+Will get converted into:
+```
 from rule_engine.models.model_name import SomeModel
+```
